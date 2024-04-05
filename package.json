@@ -6,7 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test mocha ./test/**/*.test.js --exit --ui qunit --timeout 5000",
     "test:watch": "NODE_ENV=test mocha --exit --watch --ui qunit --timeout 5000",
-    "dev": "nodemon index.js",
+    "dev": "nodemon run-dev.js",
     "lint": "eslint ./ --fix",
     "start": "node server.js"
   },
